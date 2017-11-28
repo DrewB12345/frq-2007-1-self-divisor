@@ -1,0 +1,1 @@
+# frq-2007-1-self-divisor
