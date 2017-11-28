@@ -14,10 +14,10 @@ public class SelfDivisor {
     }
 
     /**
-     * An example of a method - replace this comment with your own
+     * Determines whether a given number is a self divisor
      *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * @param number The number that is being tested
+     * @return Whether or not the number is a self divisor
      */
     public static boolean isSelfDivisor(int number) {
         String str = String.valueOf(number);
@@ -31,6 +31,13 @@ public class SelfDivisor {
         return true;
     }
     
+    /**
+     * Finds a given amount of self divisors at and after a given starting point
+     * 
+     * @param start The first number that is checked
+     * @param num The amount of self divisors that will be in the result
+     * @return Self divisors after the starting point
+     */
     public static int[] firstNumSelfDivisors(int start, int num) {
         int[] result = new int[num];
         int count = 0;
@@ -44,6 +51,11 @@ public class SelfDivisor {
         return result;
     }
     
+    /**
+     * Prints an array
+     * 
+     * @param result The array to be printed
+     */
     public void printArray(int[] result) {
         for (int i = 0; i < result.length; i++) {
             if (i > 0) {
