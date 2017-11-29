@@ -1,16 +1,10 @@
 #BlueJ class context
 comment0.target=SelfDivisor
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ SelfDivisor\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=
-comment1.target=SelfDivisor()
-comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ SelfDivisor\r\n
-comment2.params=number
-comment2.target=boolean\ isSelfDivisor(int)
-comment2.text=\r\n\ Determines\ whether\ a\ given\ number\ is\ a\ self\ divisor\r\n\r\n\ @param\ number\ The\ number\ that\ is\ being\ tested\r\n\ @return\ Whether\ or\ not\ the\ number\ is\ a\ self\ divisor\r\n
-comment3.params=start\ num
-comment3.target=int[]\ firstNumSelfDivisors(int,\ int)
-comment3.text=\r\n\ Finds\ a\ given\ amount\ of\ self\ divisors\ at\ and\ after\ a\ given\ starting\ point\r\n\ \r\n\ @param\ start\ The\ first\ number\ that\ is\ checked\r\n\ @param\ num\ The\ amount\ of\ self\ divisors\ that\ will\ be\ in\ the\ result\r\n\ @return\ Self\ divisors\ after\ the\ starting\ point\r\n
-comment4.params=result
-comment4.target=void\ printArray(int[])
-comment4.text=\r\n\ Prints\ an\ array\r\n\ \r\n\ @param\ result\ The\ array\ to\ be\ printed\r\n
-numComments=5
+comment1.params=number
+comment1.target=boolean\ isSelfDivisor(int)
+comment1.text=\r\n\ Determines\ whether\ a\ given\ number\ is\ a\ self\ divisor\r\n\r\n\ @param\ number\ The\ number\ that\ is\ being\ tested\r\n\ @return\ Whether\ or\ not\ the\ number\ is\ a\ self\ divisor\r\n
+comment2.params=start\ num
+comment2.target=int[]\ firstNumSelfDivisors(int,\ int)
+comment2.text=\r\n\ Finds\ a\ given\ amount\ of\ self\ divisors\ at\ and\ after\ a\ given\ starting\ point\r\n\ \r\n\ @param\ start\ The\ first\ number\ that\ is\ checked\r\n\ @param\ num\ The\ amount\ of\ self\ divisors\ that\ will\ be\ in\ the\ result\r\n\ @return\ Self\ divisors\ after\ the\ starting\ point\r\n
+numComments=3

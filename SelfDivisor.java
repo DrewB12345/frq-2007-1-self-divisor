@@ -7,13 +7,6 @@
  */
 public class SelfDivisor {
     /**
-     * Constructor for objects of class SelfDivisor
-     */
-    public SelfDivisor() {
-        // initialise instance variables
-    }
-
-    /**
      * Determines whether a given number is a self divisor
      *
      * @param number The number that is being tested
@@ -49,20 +42,5 @@ public class SelfDivisor {
             start++;
         }
         return result;
-    }
-    
-    /**
-     * Prints an array
-     * 
-     * @param result The array to be printed
-     */
-    public void printArray(int[] result) {
-        for (int i = 0; i < result.length; i++) {
-            if (i > 0) {
-               System.out.print(", ");
-            }
-            System.out.print(result[i]);
-        }
-        System.out.println();
     }
 }
